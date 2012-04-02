@@ -38,6 +38,7 @@ ul.items > li.followers {
   background-color    : #888;
 }
 
+ul.items > li.followed,
 ul.items > li.library {
   background-color    : #666;
 }
@@ -139,47 +140,47 @@ ul.items > li > span {
 }
 
 .container.w960 li.x-full {
-  width               : 940px;
+  width               : 950px;
 }
 
 .container.w960 li.x-twoThird {
-  width               : 620px;
+  width               : 630px;
 }
 
 .container.w960 li.x-oneThird {
-  width               : 300px;
+  width               : 310px;
 }
 
 .container.w960 li.x-oneSixth {
-  width               : 140px;
+  width               : 150px;
 }
 
 .container.w960 li.y-full {
-  height              : 940px;
+  height              : 950px;
 }
 
 .container.w960 li.y-twoThird {
-  height              : 620px;
+  height              : 630px;
 }
 
 .container.w960 li.y-oneThird {
-  height              : 300px;
+  height              : 310px;
 }
 
 .container.w960 li.y-oneSixth {
-  height              : 140px;
+  height              : 150px;
 }
 
 .container.w960 li.y-threeFourth {
-  height              : 700px;
+  height              : 710px;
 }
 
 .container.w960 li.y-oneHalf {
-  height              : 460px;
+  height              : 470px;
 }
 
 .container.w960 li.y-oneFourth {
-  height              : 220px;
+  height              : 230px;
 }
 
 .container.w960 li.y-full > span {
