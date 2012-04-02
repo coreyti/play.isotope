@@ -1,0 +1,132 @@
+body {
+  margin              : 0;
+}
+
+#container {
+  margin              : 40px auto;
+  width               : 480px;
+  height              : auto;
+  background          : #FFF;
+}
+
+ul.items {
+  margin              : 0;
+  padding             : 0;
+  list-style          : none;
+}
+
+ul.items > li {
+  float               : left;
+  margin              : 5px;
+  background          : #FFF;
+}
+
+ul.items > li.video {
+  background-color    : #CCF;
+}
+
+ul.items > li.avatar {
+  background-color    : #EEE;
+}
+
+ul.items > li.badge,
+ul.items > li.proclivity {
+  background-color    : #CCC;
+}
+
+ul.items > li.about,
+ul.items > li.factoid,
+ul.items > li.filler {
+  background-color    : #AAA;
+}
+
+ul.items > li.icon,
+ul.items > li.followers {
+  background-color    : #888;
+}
+
+ul.items > li.followed,
+ul.items > li.library {
+  background-color    : #666;
+}
+
+ul.items > li > span {
+  color               : #000;
+  font-family         : Arial;
+  font-style          : italic;
+  font-size           : 11px;
+  text-align          : center;
+  display             : block;
+}
+
+li.x-full {
+  width               : 470px;
+}
+
+li.x-twoThird {
+  width               : 310px;
+}
+
+li.x-oneThird {
+  width               : 150px;
+}
+
+li.x-oneSixth {
+  width               : 70px;
+}
+
+li.y-full {
+  height              : 470px;
+}
+
+li.y-twoThird {
+  height              : 310px;
+}
+
+li.y-oneThird {
+  height              : 150px;
+}
+
+li.y-oneSixth {
+  height              : 70px;
+}
+
+li.y-threeFourth {
+  height              : 350px;
+}
+
+li.y-oneHalf {
+  height              : 230px;
+}
+
+li.y-oneFourth {
+  height              : 110px;
+}
+
+li.y-full > span {
+  margin-top          : 230px;
+}
+
+li.y-twoThird > span {
+  margin-top          : 150px;
+}
+
+li.y-oneThird > span {
+  margin-top          : 70px;
+}
+
+li.y-oneSixth > span {
+  margin-top          : 30px;
+}
+
+li.y-threeFourth > span {
+  margin-top          : 170px;
+}
+
+li.y-oneHalf > span {
+  margin-top          : 110px;
+}
+
+li.y-oneFourth > span {
+  margin-top          : 50px;
+}
