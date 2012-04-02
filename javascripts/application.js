@@ -59,24 +59,29 @@
   });
 
   $(function() {
-    var list = $('<ul class="items">');
-    var detail, text;
+    function draw(width) {
+      var detail, text;
+      var column = width / 6;
+      var list   = $('<ul class="items">');
 
-    for(var i = 0, n = 20; i < n; i ++) {
-      detail = rand.next();
-      text   = (i + 1) + "<br>(" + detail[detail.length - 1] + ")";
-      list.append('<li class="item ' + detail.join(' ') + '"><span>' + text + '</span></li>');
+      for(var i = 0, n = 20; i < n; i ++) {
+        detail = rand.next();
+        text   = (i + 1) + "<br>(" + detail[detail.length - 1] + ")";
+        list.append('<li class="item ' + detail.join(' ') + '"><span>' + text + '</span></li>');
+      }
+
+      $('.container.w' + width)
+        .append(list)
+        .isotope({
+          itemSelector : '.item',
+          layoutMode   : 'masonry',
+          masonry : {
+            columnWidth : column
+          }
+        });
     }
 
-    $('#container')
-      .append(list)
-      .isotope({
-        itemSelector : '.item',
-        layoutMode   : 'masonry',
-        masonry : {
-          columnWidth : 80
-        }
-        // columnWidth  : 160
-      });
+    draw(480);
+    draw(960);
   });
 })(jQuery);

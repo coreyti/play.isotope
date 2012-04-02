@@ -2,13 +2,6 @@ body {
   margin              : 0;
 }
 
-#container {
-  margin              : 40px auto;
-  width               : 480px;
-  height              : auto;
-  background          : #FFF;
-}
-
 ul.items {
   margin              : 0;
   padding             : 0;
@@ -45,7 +38,6 @@ ul.items > li.followers {
   background-color    : #888;
 }
 
-ul.items > li.followed,
 ul.items > li.library {
   background-color    : #666;
 }
@@ -59,74 +51,161 @@ ul.items > li > span {
   display             : block;
 }
 
-li.x-full {
+.container {
+  margin              : 40px auto;
+}
+
+
+/* 480px column */
+.container.w480 {
+  width               : 480px;
+}
+
+.container.w480 li.x-full {
   width               : 470px;
 }
 
-li.x-twoThird {
+.container.w480 li.x-twoThird {
   width               : 310px;
 }
 
-li.x-oneThird {
+.container.w480 li.x-oneThird {
   width               : 150px;
 }
 
-li.x-oneSixth {
+.container.w480 li.x-oneSixth {
   width               : 70px;
 }
 
-li.y-full {
+.container.w480 li.y-full {
   height              : 470px;
 }
 
-li.y-twoThird {
+.container.w480 li.y-twoThird {
   height              : 310px;
 }
 
-li.y-oneThird {
+.container.w480 li.y-oneThird {
   height              : 150px;
 }
 
-li.y-oneSixth {
+.container.w480 li.y-oneSixth {
   height              : 70px;
 }
 
-li.y-threeFourth {
+.container.w480 li.y-threeFourth {
   height              : 350px;
 }
 
-li.y-oneHalf {
+.container.w480 li.y-oneHalf {
   height              : 230px;
 }
 
-li.y-oneFourth {
+.container.w480 li.y-oneFourth {
   height              : 110px;
 }
 
-li.y-full > span {
+.container.w480 li.y-full > span {
   margin-top          : 230px;
 }
 
-li.y-twoThird > span {
+.container.w480 li.y-twoThird > span {
   margin-top          : 150px;
 }
 
-li.y-oneThird > span {
+.container.w480 li.y-oneThird > span {
   margin-top          : 70px;
 }
 
-li.y-oneSixth > span {
+.container.w480 li.y-oneSixth > span {
   margin-top          : 30px;
 }
 
-li.y-threeFourth > span {
+.container.w480 li.y-threeFourth > span {
   margin-top          : 170px;
 }
 
-li.y-oneHalf > span {
+.container.w480 li.y-oneHalf > span {
   margin-top          : 110px;
 }
 
-li.y-oneFourth > span {
+.container.w480 li.y-oneFourth > span {
   margin-top          : 50px;
+}
+
+/* 960px column */
+.container.w960 {
+  width               : 960px;
+}
+
+.container.w960 li.x-full {
+  width               : 940px;
+}
+
+.container.w960 li.x-twoThird {
+  width               : 620px;
+}
+
+.container.w960 li.x-oneThird {
+  width               : 300px;
+}
+
+.container.w960 li.x-oneSixth {
+  width               : 140px;
+}
+
+.container.w960 li.y-full {
+  height              : 940px;
+}
+
+.container.w960 li.y-twoThird {
+  height              : 620px;
+}
+
+.container.w960 li.y-oneThird {
+  height              : 300px;
+}
+
+.container.w960 li.y-oneSixth {
+  height              : 140px;
+}
+
+.container.w960 li.y-threeFourth {
+  height              : 700px;
+}
+
+.container.w960 li.y-oneHalf {
+  height              : 460px;
+}
+
+.container.w960 li.y-oneFourth {
+  height              : 220px;
+}
+
+.container.w960 li.y-full > span {
+  margin-top          : 460px;
+}
+
+.container.w960 li.y-twoThird > span {
+  margin-top          : 300px;
+}
+
+.container.w960 li.y-oneThird > span {
+  margin-top          : 140px;
+}
+
+.container.w960 li.y-oneSixth > span {
+  margin-top          : 60px;
+}
+
+.container.w960 li.y-threeFourth > span {
+  margin-top          : 340px;
+}
+
+.container.w960 li.y-oneHalf > span {
+  margin-top          : 220px;
+}
+
+.container.w960 li.y-oneFourth > span {
+  margin-top          : 100px;
 }
