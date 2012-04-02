@@ -6,7 +6,7 @@
   $.extend(rand, {
     config : {
       available : [
-        [5, 'x-oneThird', 'y-oneHalf',   'video'],
+        [5, 'x-oneThird', 'y-oneHalf',   'media'],
 
         [1,  'x-oneThird', 'y-oneThird', 'avatar'],
         [3,  'x-oneThird', 'y-oneThird', 'about'],
